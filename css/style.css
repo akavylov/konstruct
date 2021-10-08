@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif ;
+}
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.hero {
+    background: url("../images/hero.png") center/cover;
+    height: 100vh;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 41px 0 71px;
+}
+
+.hero-center {
+    text-align: center;
+    color: #FFFFFF;
+}
+h1  {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5px;
+}
+.hero-center p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+.hero-bottom {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+}
+header {
+    position: sticky;
+    top: 0;
+    background: white;
+    border: 1px solid #E6E6E6;
+    padding: 24px 0;
+    z-index: 2;
+}
+.header-height {
+    padding: 24px 0;
+}
+.header-right-item {
+    display: flex;
+    list-style: none;
+}
+.header-right-li {
+    margin-right: 48px;
+}
+.header-right-li:last-child {
+    margin-right: 0;
+}
+.header-right-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #48555B;
+}
+.header-right-link:hover {
+    color: #00A4E5;
+    font-weight: bold;
+}
+.our-story {
+    padding: 57px 0 0;
+}
+.our-story-title {
+    padding: 65px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #48555B;
+}
+.our-story-title::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background: blue;
+
+
+
+}
+
+.our-story-text-1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    color: #48555B;
+}
+.our-story-text-1-blue {
+    color: #00A4E5;
+}
+.our-story-text-2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    color: #48555B;
+}
+.our-story-card {
+    width: 100%;
+    height: 224px;
+    padding: 15px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.our-story-card-1 {
+    background: url("../images/cardstup.png") center/cover;
+}
+.our-story-card-2 {
+    background: url("../images/ruki.png") center/cover;
+}
+.our-story-card-3 {
+    background: url("../images/lineika.png") center/cover;
+}
